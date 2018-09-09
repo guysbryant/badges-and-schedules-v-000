@@ -1,7 +1,7 @@
 # Write your code here.
 
 def batch_badge_creator(array)
-  array.each {|guest| puts "Hello, my name is #{guest}."}
+  array.collect {|guest| "Hello, my name is #{guest}."}
 end
 
 def assign_rooms
@@ -10,5 +10,5 @@ end
 
 def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  batch_badge_creator(guets)
+  guest_badges = batch_badge_creator(guets)
 end
