@@ -11,8 +11,8 @@ def assign_rooms(array)
   array.collect {|guest| "Hello, #{guest}! You'll be assigned to room #{array.index(guest)+1}!"}
 end
 
-def printer
-  guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def printer(guests)
+  # guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badges = batch_badge_creator(guests)
   rooms = assign_rooms(guests)
   puts badges
