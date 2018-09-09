@@ -14,5 +14,5 @@ end
 def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batch_badge_creator(guets).each {|guest| puts guest}
-  puts assign_rooms(guests)
+  assign_rooms(guests).each {|guest| puts guest}
 end
