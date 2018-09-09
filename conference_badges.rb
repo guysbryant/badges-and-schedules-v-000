@@ -13,6 +13,6 @@ end
 
 def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  puts batch_badge_creator(guets)
+  batch_badge_creator(guets).each {|guest| puts guest}
   puts assign_rooms(guests)
 end
