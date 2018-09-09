@@ -9,5 +9,5 @@ def assign_rooms
 end
 
 def printer
-  
+  guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 end
