@@ -4,7 +4,7 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 def batch_badge_creator(array)
-  array.collect {|guest| "Hello, my name is #{guest}."}
+  array.collect {|guest| badge_maker(guest)}
 end
 
 def assign_rooms
