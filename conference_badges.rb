@@ -1,5 +1,5 @@
 # Write your code here.
-
+require "pry"
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -15,6 +15,7 @@ def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badges = batch_badge_creator(guets)
   rooms = assign_rooms(guests)
+  binding.pry
   badges.each {|badge| puts badge}
   rooms.each {|room| puts room}
 end
