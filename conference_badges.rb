@@ -13,6 +13,6 @@ end
 
 def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  guest_badges = batch_badge_creator(guets)
-  puts guest_badges
+  puts = batch_badge_creator(guets)
+  # puts guest_badges
 end
