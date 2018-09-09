@@ -13,6 +13,6 @@ end
 
 def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  batch_badge_creator(guets)
-  assign_rooms(guests)
+  badges = batch_badge_creator(guets)
+  rooms = assign_rooms(guests)
 end
