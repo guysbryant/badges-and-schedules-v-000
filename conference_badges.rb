@@ -14,4 +14,5 @@ end
 def printer
   guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   puts batch_badge_creator(guets)
+  puts assign_rooms
 end
